@@ -44,18 +44,6 @@ RubiksCube3D/
 ├── Cube.java
 ├── Cubie.java
 ├── Rotation.java
-├── renderer/
-│   ├── Camera.java
-│   ├── ShaderProgram.java
-│   └── Renderer.java
-├── input/
-│   └── InputHandler.java
-├── utils/
-│   └── MathUtils.java
-└── resources/
-    ├── shaders/
-    │   ├── vertex.glsl
-    │   └── fragment.glsl
 ```
 
 ---
@@ -97,7 +85,7 @@ java Main
 
 ## 🛠 Future Improvements
 
-- 🎨 Add texture mapping (colors or sticker images)
+- 🎨 Add rotation and camera movements
 - 💡 Implement lighting using shaders
 - 🧩 Cube solving algorithm (visual or step-by-step)
 - 📷 Save screenshots or record animations
